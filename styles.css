@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30,76,147);
+    background: linear-gradient(90deg, rgba(30,76,147,1) 0%, rgba(32,81,180,1) 30%, rgba(95,155,210,1) 97%);
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+
+.es p {
+    display: flex;
+    border-radius: 50%;
+    height: 35px;
+    width: 40px;
+    border: 1.5px solid white;
+    text-align: center;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.es p:hover {
+    background-color: white;
+    cursor: pointer;
+    color:black;
+
+}
+
+.donate{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+
+
+.Btn {
+     border: none;
+     background-color: red;
+     color: white;
+     font-weight: 900;
+     padding: 10px;
+     border-radius: 15px;
+
+}
+
+.Btn:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+
+}
+
+.content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.learn img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.biden {
+}
+
+
